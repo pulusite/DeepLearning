@@ -32,3 +32,16 @@ private:
             return A[ia-1];
     }
 };
+
+class SubSolution : Solution{
+public:
+
+
+};
+
+int main(){
+    Solution s;
+    vector<int>& A ={1,2};
+    vector<int>& B= {3,4};
+    cout<<s.findMedianSortedArrays(A,B);
+}
