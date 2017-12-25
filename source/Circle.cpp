@@ -14,7 +14,7 @@ Circle::Circle(double R)
     this->r=R;
 }
 
-static double Circle:: Area()
+double Circle:: Area()
 {
     return 3.14*r*r;
 }

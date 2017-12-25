@@ -12,7 +12,7 @@ private:
 public:
     Circle();//构造函数
     Circle(double R);//构造函数
-    static double Area();//求面积函数
+    double Area();//求面积函数
 };
 
 #endif //DEEPLEARNING_CIRCLE_H
