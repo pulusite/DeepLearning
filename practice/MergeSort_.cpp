@@ -29,10 +29,10 @@ void MergeSort(int A[],int low,int high){
     }
 }
 
-int main(){
-    int nums[]={3,9,5,1,0,4,8,2,7,3,6};
-    MergeSort(nums,0,9);
-    for (int i = 0; i < 10; ++i) {
-        cout<<nums[i]<<" ";
-    }
-}
+//int main(){
+//    int nums[]={3,9,5,1,0,4,8,2,7,3,6};
+//    MergeSort(nums,0,9);
+//    for (int i = 0; i < 10; ++i) {
+//        cout<<nums[i]<<" ";
+//    }
+//}
